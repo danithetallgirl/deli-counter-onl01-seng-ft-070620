@@ -3,7 +3,7 @@ katz_deli = ["Logan", "Avi", "Spencer"]
 def line(katz_deli)
   people_in_line_formatted = []
   
-  3 do |person, place_in_line|
+   do |person, place_in_line|
     people_in_line_formatted << "#{place_in_line + 1}. #{person}"
   end
   
